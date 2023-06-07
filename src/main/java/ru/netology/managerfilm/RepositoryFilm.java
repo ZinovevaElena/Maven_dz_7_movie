@@ -1,19 +1,15 @@
 package ru.netology.managerfilm;
 
 public class RepositoryFilm {
-    private int id;
-    private int premiereDate;
     private String movie;
-    private String genre;
     private String[] movies = new String[0];
     private int limit;
 
-    public RepositoryFilm(int id, int premiereDate, String movie, String genre) {
-        this.id = id;
-        this.premiereDate = premiereDate;
+    public RepositoryFilm(String movie) {
         this.movie = movie;
-        this.genre = genre;
+
     }
+
     public RepositoryFilm() {
         this.limit = 5;
     }

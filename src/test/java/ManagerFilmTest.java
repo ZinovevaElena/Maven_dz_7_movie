@@ -4,13 +4,13 @@ import ru.netology.managerfilm.RepositoryFilm;
 
 public class ManagerFilmTest {
 
-    RepositoryFilm film1 = new RepositoryFilm(1, 12 / 3 / 2023, "Бладшот", "боевик");
-    RepositoryFilm film2 = new RepositoryFilm(2, 5 / 3 / 2023, "Вперед", "мультфильм");
-    RepositoryFilm film3 = new RepositoryFilm(3, 5 / 3 / 2023, "Отель Белград", "комедия");
-    RepositoryFilm film4 = new RepositoryFilm(4, 13 / 2 / 2023, "Джентельмены", "боевик");
-    RepositoryFilm film5 = new RepositoryFilm(5, 5 / 3 / 2023, "Человек-невидимка", "ужасы");
-    RepositoryFilm film6 = new RepositoryFilm(6, 19 / 3 / 2023, "Номер 1", "комедия");
-    RepositoryFilm film7 = new RepositoryFilm(7, 19 / 3 / 2023, "Тролли", "мультфильм");
+    RepositoryFilm film1 = new RepositoryFilm( "Бладшот");
+    RepositoryFilm film2 = new RepositoryFilm( "Вперед");
+    RepositoryFilm film3 = new RepositoryFilm("Отель Белград");
+    RepositoryFilm film4 = new RepositoryFilm( "Джентельмены");
+    RepositoryFilm film5 = new RepositoryFilm( "Человек-невидимка");
+    RepositoryFilm film6 = new RepositoryFilm( "Номер 1");
+    RepositoryFilm film7 = new RepositoryFilm("Тролли");
 
 
     @Test
