@@ -1,16 +1,17 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import ru.netology.managerfilm.Movie;
 import ru.netology.managerfilm.RepositoryFilm;
 
 public class ManagerFilmTest {
 
-    RepositoryFilm film1 = new RepositoryFilm( "Бладшот");
-    RepositoryFilm film2 = new RepositoryFilm( "Вперед");
-    RepositoryFilm film3 = new RepositoryFilm("Отель Белград");
-    RepositoryFilm film4 = new RepositoryFilm( "Джентельмены");
-    RepositoryFilm film5 = new RepositoryFilm( "Человек-невидимка");
-    RepositoryFilm film6 = new RepositoryFilm( "Номер 1");
-    RepositoryFilm film7 = new RepositoryFilm("Тролли");
+    Movie film1 = new Movie("Бладшот"); // это те данные, которые нужны конструктору для проведения тестов и которые будут хранится в репозитории
+    Movie film2 = new Movie("Вперед");
+    Movie film3 = new Movie("Отель Белград");
+    Movie film4 = new Movie("Джентельмены");
+    Movie film5 = new Movie("Человек-невидимка");
+    Movie film6 = new Movie("Номер 1");
+    Movie film7 = new Movie("Тролли");
 
 
     @Test

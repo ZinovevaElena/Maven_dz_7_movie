@@ -1,14 +1,9 @@
 package ru.netology.managerfilm;
 
 public class RepositoryFilm {
-    private String movie;
+
     private String[] movies = new String[0];
     private int limit;
-
-    public RepositoryFilm(String movie) {
-        this.movie = movie;
-
-    }
 
     public RepositoryFilm() {
         this.limit = 5;
@@ -18,9 +13,6 @@ public class RepositoryFilm {
         this.limit = limit;
     }
 
-    public String getMovie() {
-        return movie;
-    }
 
     public int getlimit() {
         return limit;
